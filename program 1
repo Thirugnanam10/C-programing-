@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<math.h>
+void Pow(int x,int n);
+int main()
+{
+	int x,n,option;
+	printf("Enter the value of x&n:");
+	scanf("%d %d",&x,&n);	
+printf("Enter the option :");
+scanf("%d",&option);
+switch(option)
+	{
+		case 1:
+			printf("Add%d",x+n);
+			break;
+			case 2:
+				printf("sub%d",x-n);
+				break;
+				case 3:
+					printf("mult%d",x*n);
+					break;
+					case 4:
+						printf("Div%d",x/n);
+						break;
+						case 5:
+							Pow(x,n);
+							break;
+							default :
+								printf("Enter the right option");
+							
+}
+}
+	void Pow(int x,int n)
+	{
+	
+	int powr;
+	powr=pow(x,n);
+ 
+	printf("(x,n)=%d",powr);
+}
