@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int a,i;
+	int b;
+	int c;
+	int d;
+	printf("Enter the value principal value");
+	scanf("%d",&a);
+	printf("Enter the year");
+	scanf("%d",&b);
+	printf("Enter the age");
+	scanf("%d",&c);
+	d=b*12;
+	if(c>=65)
+	
+	{
+	
+		i=(a*12/100)*d;
+		
+		printf("Intrest rate is :%d",i);
+	}
+
+	else
+		printf("Intrest rate is:%d",i);
+	
+	return 0;
+}
