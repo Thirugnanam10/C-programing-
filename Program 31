@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a;
+	printf("Enter the anniversary  year :");
+	scanf("%d",&a);
+	if(a%4==0)
+	{
+		printf("The given anniversery year is leap year:");
+	}
+	else
+	{
+		printf("The given aniversery is not an leap year");
+	}
+	return 0;
+}
